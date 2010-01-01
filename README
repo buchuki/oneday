@@ -1,0 +1,21 @@
+After using a paper daybook for a year, I found that I liked organizing my days
+by "what I want to accomplish today." Please visit a blog post I wrote last
+spring for some of the theory I came up with:
+
+http://archlinux.me/dusty/2009/05/17/todo-list-design/
+
+I had written a web-based offline-enabled app to take care of this, but never
+finished it. Now I'm out of time and needed something quick. I'm on a bad
+internet connection, and even offline-enabled apps are quirky. I decided to
+write something quick and dirty using a command line. Half an hour later, this
+is what I have:
+
+* All my todos are stored in text files in one directory.
+* Each textfile contains the things I want to accomplish in one day, named after that day in 2010-01-31 format so they show up in sorted order.
+* I edit the files in my favourite text editor and put a "*" beside ones I've completed.
+* I wrote some scripts to easily open "relative" names such as TODAY, YESTERDAY, TOMORROW, and TWODAYS side by side.
+* I named each script starting with a 1 so that they show up at the beginning of the listing. This is useful in gui file managers as I can double click those scripts to open them.
+* I don't actually use gui file managers much, but I put a link to this one on my desktop with a fancy icon so I don't forget my tasks.
+* I'll probably have one extra text file for "things that need to be done eventually."
+
+I haven't really tested it, but I intend to use it for the next week and revise it as necessary. If it seems to be working as well as the daybook did last year, I'll keep it up. If I tend to forget to use it, like other electronic solutions I've tried, I'll get a new daybook.
