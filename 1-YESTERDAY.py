@@ -1,4 +1,4 @@
-#!/usr/bin/python
-from todo import todo_utils
+#!/usr/bin/python3
+from todo.utils import open_day
 
-todo_utils.open_day(-1)
+open_day(-1)

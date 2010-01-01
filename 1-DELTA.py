@@ -1,9 +1,9 @@
-#!/usr/bin/python
-from todo import todo_utils
+#!/usr/bin/python3
+from todo.utils import open_day
 import sys
 
 try:
-    todo_utils.open_day(int(sys.argv[1]))
+    open_day(int(sys.argv[1]))
 except ValueError:
     print("Argument must be an integer")
 except IndexError:

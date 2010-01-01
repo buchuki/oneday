@@ -1,3 +1,3 @@
-#!/usr/bin/python
-from todo import todo_utils
-todo_utils.open_day()
+#!/usr/bin/python3
+from todo.utils import open_day
+open_day()
